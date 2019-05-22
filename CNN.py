@@ -32,6 +32,8 @@ from keras.utils import np_utils
 
 """
 
+Yo, I added this line right now!
+
 path = "train"
 folder_names = [name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))]
 print(folder_names)
